@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #121212; /* Dark background */
+    margin: 0;
+    color: #e0e0e0; /* Light grey text for readability */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Container */
+.container {
+    background: #1e1e1e; /* Slightly lighter than the background */
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+/* First Line */
+.firstline {
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    margin-bottom: 15px;
+    color: #ffffff; /* White text */
+    font-weight: bold;
+}
+
+/* Form Styles */
+.todoform {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.inputtask {
+    flex: 4;
+    margin-right: 10px;
+}
+
+.inputtask input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #444; /* Dark grey border */
+    background: #333; /* Dark background */
+    color: #e0e0e0; /* Light grey text */
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border 0.3s ease;
+}
+
+.inputtask input[type="text"]:focus {
+    border-color: #888; /* Slightly lighter grey when focused */
+    outline: none;
+}
+
+.addtodobutton {
+    flex: 1;
+    margin-left: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.addtodobutton button {
+    padding: 12px 20px;
+    border: none;
+    background: #007bff; /* Blue background */
+    color: #ffffff; /* White text */
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.addtodobutton button:hover {
+    background: #0056b3; /* Darker blue on hover */
+}
+
+/* List Styles */
+.todolist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.todolist li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Dark background */
+    color: #e0e0e0; /* Light grey text */
+    padding: 10px;
+    border: 1px solid #444; /* Dark grey border */
+    border-radius: 6px;
+    margin-bottom: 10px;
+    transition: background 0.3s ease;
+}
+
+.todolist li:hover {
+    background-color: #444; /* Slightly lighter grey on hover */
+}
+
+/* Text Styles */
+.text {
+    flex: 1;
+    font-size: 16px;
+}
+
+/* Buttons Styles */
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.thirdlinebuttons {
+    height: fit-content;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s ease;
+}
+
+.thirdlinebuttons.done {
+    background: #28a745; /* Green background */
+    color: #ffffff; /* White text */
+}
+
+.thirdlinebuttons.done:hover {
+    background: #218838; /* Darker green on hover */
+}
+
+.thirdlinebuttons.delete {
+    background: #dc3545; /* Red background */
+    color: #ffffff; /* White text */
+}
+
+.thirdlinebuttons.delete:hover {
+    background: #c82333; /* Darker red on hover */
+}
