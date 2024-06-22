@@ -1,9 +1,9 @@
-/* General Styles */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #121212; /* Dark background */
+    background: #121212; 
     margin: 0;
-    color: #e0e0e0; /* Light grey text for readability */
+    color: #e0e0e0;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -11,7 +11,7 @@ body {
 
 /* Container */
 .container {
-    background: #1e1e1e; /* Slightly lighter than the background */
+    background: #1e1e1e; 
     padding: 25px 30px;
     border-radius: 12px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
@@ -20,17 +20,17 @@ body {
     margin-top: 20px;
 }
 
-/* First Line */
+
 .firstline {
     display: flex;
     font-size: 24px;
     justify-content: center;
     margin-bottom: 15px;
-    color: #ffffff; /* White text */
+    color: #ffffff; 
     font-weight: bold;
 }
 
-/* Form Styles */
+
 .todoform {
     display: flex;
     justify-content: space-between;
@@ -45,16 +45,16 @@ body {
 .inputtask input[type="text"] {
     width: 100%;
     padding: 12px;
-    border: 1px solid #444; /* Dark grey border */
-    background: #333; /* Dark background */
-    color: #e0e0e0; /* Light grey text */
+    border: 1px solid #444; 
+    background: #333; 
+    color: #e0e0e0;
     border-radius: 6px;
     font-size: 16px;
     transition: border 0.3s ease;
 }
 
 .inputtask input[type="text"]:focus {
-    border-color: #888; /* Slightly lighter grey when focused */
+    border-color: #888; 
     outline: none;
 }
 
@@ -68,8 +68,8 @@ body {
 .addtodobutton button {
     padding: 12px 20px;
     border: none;
-    background: #007bff; /* Blue background */
-    color: #ffffff; /* White text */
+    background: #007bff; 
+    color: #ffffff; 
     border-radius: 6px;
     cursor: pointer;
     font-size: 16px;
@@ -77,10 +77,10 @@ body {
 }
 
 .addtodobutton button:hover {
-    background: #0056b3; /* Darker blue on hover */
+    background: #0056b3;
 }
 
-/* List Styles */
+
 .todolist {
     list-style: none;
     padding: 0;
@@ -91,26 +91,26 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333; /* Dark background */
-    color: #e0e0e0; /* Light grey text */
+    background-color: #333; 
+    color: #e0e0e0; 
     padding: 10px;
-    border: 1px solid #444; /* Dark grey border */
+    border: 1px solid #444; 
     border-radius: 6px;
     margin-bottom: 10px;
     transition: background 0.3s ease;
 }
 
 .todolist li:hover {
-    background-color: #444; /* Slightly lighter grey on hover */
+    background-color: #444; 
 }
 
-/* Text Styles */
+
 .text {
     flex: 1;
     font-size: 16px;
 }
 
-/* Buttons Styles */
+
 .buttons {
     display: flex;
     gap: 10px;
@@ -127,19 +127,19 @@ body {
 }
 
 .thirdlinebuttons.done {
-    background: #28a745; /* Green background */
-    color: #ffffff; /* White text */
+    background: #28a745; 
+    color: #ffffff; 
 }
 
 .thirdlinebuttons.done:hover {
-    background: #218838; /* Darker green on hover */
+    background: #218838;
 }
 
 .thirdlinebuttons.delete {
-    background: #dc3545; /* Red background */
-    color: #ffffff; /* White text */
+    background: #dc3545;
+    color: #ffffff; 
 }
 
 .thirdlinebuttons.delete:hover {
-    background: #c82333; /* Darker red on hover */
+    background: #c82333; 
 }
